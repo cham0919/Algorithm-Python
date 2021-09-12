@@ -34,6 +34,7 @@ def solution2(a):
         x2, y2, z2 = y2, z2, max(x2, y2)+i
     return max(x1, y1, y2, z2)
 
+
 for m, r in zip(moneyList, returnList):
 
     result = solution2(m)
